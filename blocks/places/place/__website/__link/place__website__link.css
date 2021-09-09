@@ -1,0 +1,15 @@
+.place__website__link {
+    margin: 0;
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    
+}
+
+
+@media screen and (min-width: 1024px) {
+    .place__website__link {
+        line-height: 170%;
+    } 
+}
+

@@ -1,0 +1,23 @@
+.cover {
+    /*background-image: url(../../images/cover-trains.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 33px 16px 97px;*/
+    background-color: chartreuse;
+    width: 320px;
+    height: 200px;
+}
+
+/*.cover::before {
+    content:'';
+    position: absolute;
+    display: block;
+    background-color: #2A2C2F;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.33;
+    transition: opacity 0.5s ease;
+}*/
+
