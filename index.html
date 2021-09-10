@@ -6,19 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Путешествия по России</title>
   <link rel="stylesheet" href="pages/index.css">
+  <link rel="stylesheet" href="./fonts/inter.css">
 </head>
 
 <body>
     <div class="root">
-        <header class="header">
+        <header class="header root__header">
           <img src="./images/header-logo.svg" alt="Здесь должен быть логотип" class="header__logo">
           <a href=# class="header__lang-link">Ru</a>
           <a href=# class="header__lang-link">En</a>
         </header>
         <main class="content">
-          <section class="lead">
+          <section class="lead content__lead">
             <h1 class="lead__title">Путешествия по России</h1>
-            <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+            <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а&nbsp;здесь.</p>
             <img src="./images/lead-polka.jpg" alt="Здесь должен быть логотип" class="lead__image">
             <p class="lead__caption">ваша полка — верхняя</p>
           </section>
@@ -133,20 +134,22 @@
               </div>
             </div>
           </section>
-          <section class="сover">
-            <div class="сover__background"></div>
-            <h2 class="сover__title">До Байкала «на собаках»</h2>
-            <p class="сover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+          <section class="cover">
+            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
+            <div class="cover__overlay">
+              <div class="cover__background"></div>
+              <h2 class="cover__title">До Байкала «на собаках»</h2>
+              <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+            </div>
+            </a>
           </section>
         </main>
-        <footer>
-          <ul class="footer__link">
-            <li><a href="#">Карты</a></li>
-            <li><a href="#">Погода</a></li>
-            <li><a href="#">Расписание</a></li>
-            <li><a href="#">Календарь</a></li>
-            <li><a href="#">Путешествия</a></li>
-          </ul>
-          <p class="footer__copyright">&copy;2021.Валентина Чамкина</p>
+        <footer class="footer">
+            <a href="#" class="footer__link">Карты</a>
+            <a href="#" class="footer__link">Погода</a>
+            <a href="#" class="footer__link" >Расписание</a>
+            <a href="#" class="footer__link">Календарь</a>
+            <a href="#" class="footer__link">Путешествия</a>
+            <p class="footer__copyright">&copy;2021.Валентина Чамкина</p>
         </footer>
       </body>

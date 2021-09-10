@@ -1,13 +1,29 @@
 .intro {
+    min-width: 280px;
     max-width: 690px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    width: 288px;
 }
 
 @media screen and (max-width: 768px) {
     .intro {
-        max-width: 720px;
+       width: 720px;
     }
 }
+    
+@media screen and (min-width: 1024px) {
+    .intro {
+        width: 690px;
+     } 
+}
+
+@media screen and (min-width: 1280px) {
+    .intro {
+        width: 690px;
+     } 
+}
+
+

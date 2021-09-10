@@ -1,14 +1,17 @@
 .cover {
-    /*background-image: url(../../images/cover-trains.jpg);
+    background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
     background-position: center;
-    padding: 33px 16px 97px;*/
-    background-color: chartreuse;
+    box-sizing: border-box;
     width: 320px;
     height: 200px;
+    margin: 0 auto;
+    position: relative;
+    
 }
 
-/*.cover::before {
+
+.cover:hover:before {
     content:'';
     position: absolute;
     display: block;
@@ -17,7 +20,11 @@
     bottom: 0;
     left: 0;
     right: 0;
-    opacity: 0.33;
-    transition: opacity 0.5s ease;
-}*/
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+
+
+
 
