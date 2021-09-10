@@ -1,11 +1,10 @@
 .intro {
     min-width: 280px;
-    max-width: 690px;
+    max-width: 720px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    width: 288px;
 }
 
 @media screen and (max-width: 768px) {

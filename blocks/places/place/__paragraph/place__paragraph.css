@@ -1,28 +1,56 @@
 .place__paragraph {
+    margin: 0;
     font-size: 16px;
     line-height: 163%;
     font-weight: normal;
     color: #fff;
     width: 288px;
+    justify-items: stretch;
+    width: 288px;
     margin: 0 auto;
+    margin-bottom: 25px;
     
 }
 
 .place__paragraph:last-child {
-    margin-top: 25px;
-    margin-bottom: 50px;
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 768px) {
     .place__paragraph {
       font-size: 16px;
-      line-height: 163%;
+      line-height: 26px;
       font-weight: normal;
-      margin: 0 auto;
+      width: 100%;
     } 
 
-    .place__paragraph:last-child {
-      margin-top: 25px;
-      margin-bottom: 73px;
+    .place__paragraph:last-child  {
+      margin-bottom: 0;
     }
+}
+
+@media screen and (min-width: 1024px) {
+  .place__paragraph {
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: normal;
+    width: 100%;
+  } 
+
+  .place__paragraph:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__paragraph {
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: normal;
+    width: 100%;
+  } 
+
+  .place__paragraph:last-child {
+    margin-bottom: 0;
+  }
 }
