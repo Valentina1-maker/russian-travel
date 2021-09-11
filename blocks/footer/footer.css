@@ -19,7 +19,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .header {
+    .footer {
         width: calc(100% - 96px);
         padding-top: 92px;
         grid-template-columns: repeat(5, max-content) 1fr;
@@ -29,7 +29,7 @@
 
 
 @media screen and (min-width: 1280px) {
-    .header {
+    .footer {
         grid-template-columns: repeat(5, max-content) 1fr;
         width: calc(100% - 96px);
         padding-top: 92px;
