@@ -1,7 +1,4 @@
 .header {
-    height: 100vh;
-    min-height: 42px;
-    max-height: 52px;
     width: calc(100% - 32px);
     display: grid;
     grid-template-columns: 1fr repeat(2, min-content);

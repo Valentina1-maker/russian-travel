@@ -1,11 +1,11 @@
 .footer__link {
-    margin: 0;
+    margin: 32px 0;
     color: #FFF;
     text-decoration: none;
     font-size: 24px;
     line-height: 24px;
     cursor: pointer;
-    text-align: start;
+    /*text-align: start;*/
 }
 
 .footer__link:hover {
@@ -16,5 +16,6 @@
    .footer__link {
     font-size: 16px;
     line-height: 18px;
+    margin-right: 18px;
    }
 }

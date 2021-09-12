@@ -1,17 +1,17 @@
 .footer {
-    display: grid;
+    display: flex;
     flex-wrap: wrap;
-    grid-template-columns: repeat(auto-fit, max-content) 1fr;
+    justify-content: space-between;
     row-gap: 32px;
     width: calc(100% - 134px);
     padding-top: 64px;
     align-items: center;
+    padding-bottom: 24px;
 }
 
 
 @media screen and  (min-width: 768px) {
     .footer {
-        grid-template-columns: repeat(5, max-content) 1fr;
         width: calc(100% - 48px);
         padding-top: 88px;
         column-gap: 18px;

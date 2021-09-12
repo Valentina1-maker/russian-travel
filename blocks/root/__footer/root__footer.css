@@ -1,12 +1,5 @@
 .root__footer {
     margin-left: 16px;
     margin-right: 118px;
-    margin-bottom: 24px;
 }
 
-@media screen and (min-width: 768px){
-    .root__footer {
-      margin: 0 auto;
-    }
- }
- 
