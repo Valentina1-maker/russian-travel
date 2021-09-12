@@ -21,15 +21,6 @@
 @media screen and (min-width: 1024px) {
     .header {
         width: calc(100% - 96px);
-        padding-top: 28px;
         justify-content: space-between;
-    }
-}
-
-
-@media screen and (min-width: 1280px) {
-    .header {
-        width: calc(100% - 96px);
-        padding-top: 28px;
     }
 }

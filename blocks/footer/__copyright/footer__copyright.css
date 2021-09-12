@@ -1,27 +1,12 @@
 .footer__copyright {
-    text-align: end;
     color: #FFF;
     font-size: 14px;
     line-height: 14px;
+    text-align: end;
 }
 
 @media screen and (min-width: 768px){
     .footer__copyright {
-     font-size: 14px;
      line-height: 16px;
     }
  }
- 
- @media screen and (min-width: 1024px){
-     .footer__copyright {
-      font-size: 14px;
-      line-height: 16px;
-     }
-  }
- 
-  @media screen and (min-width: 1280px){
-     .footer__copyright {
-      font-size: 14px;
-      line-height: 16px;
-     }
-  }

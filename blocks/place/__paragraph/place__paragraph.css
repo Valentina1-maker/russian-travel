@@ -37,16 +37,3 @@
     margin-bottom: 0;
   }
 }
-
-@media screen and (min-width: 1280px) {
-  .place__paragraph {
-    font-size: 18px;
-    line-height: 29px;
-    font-weight: normal;
-    width: 100%;
-  } 
-
-  .place__paragraph:last-child {
-    margin-bottom: 0;
-  }
-}
