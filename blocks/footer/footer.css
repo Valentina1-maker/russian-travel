@@ -2,11 +2,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    row-gap: 32px;
     width: calc(100% - 134px);
     padding-top: 64px;
-    align-items: center;
+    align-items: flex-start;
     padding-bottom: 24px;
+    flex-direction: column;
 }
 
 
@@ -14,7 +14,7 @@
     .footer {
         width: calc(100% - 48px);
         padding-top: 88px;
-        column-gap: 18px;
+        flex-direction: row;
     }
 }
 

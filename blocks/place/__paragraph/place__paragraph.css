@@ -14,26 +14,14 @@
 
 @media screen and (min-width: 768px) {
     .place__paragraph {
-      font-size: 16px;
       line-height: 26px;
-      font-weight: normal;
       width: 100%;
     } 
-
-    .place__paragraph:last-child  {
-      margin-bottom: 0;
-    }
 }
 
 @media screen and (min-width: 1024px) {
   .place__paragraph {
     font-size: 18px;
     line-height: 29px;
-    font-weight: normal;
-    width: 100%;
   } 
-
-  .place__paragraph:last-child {
-    margin-bottom: 0;
-  }
 }

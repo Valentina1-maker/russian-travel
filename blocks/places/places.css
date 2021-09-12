@@ -31,7 +31,5 @@
     .places {
       width: 984px;
       grid-template-columns: auto-fit, 984px;
-      row-gap: 80px;
-      padding-bottom: 92px;
     } 
 }
