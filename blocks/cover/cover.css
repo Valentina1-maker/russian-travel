@@ -7,7 +7,6 @@
     height: 200px;
     margin: 0 auto;
     position: relative;
-    padding: 33px 16px;
 }
 
 
@@ -15,7 +14,7 @@
     .cover {
         width: 768px;
         height: 480px;
-        padding: 115px 104px;
+        
     } 
     
 }
@@ -24,7 +23,7 @@
     .cover {
         width: 1024px;
         height: 640px;
-        padding: 195px 232px;  
+       
     } 
 
 }
@@ -33,7 +32,6 @@
     .cover {
         width: 1184px;
         height: 740px;
-        padding: 245px 312px;
     } 
 
 }
