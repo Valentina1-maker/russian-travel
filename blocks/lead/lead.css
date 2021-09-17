@@ -5,17 +5,18 @@
     align-items: center;
     width: 100%;
     padding-top: 48px;
+    max-width: 984px;
 }
-
 
 @media screen and (min-width: 1024px) {
     .lead {
-        width: calc(100% - 96px);
+        padding: 48px 48px 0 48px;
+        width: calc(100% - 92px);
     }
 }
 
 @media screen and (min-width: 1280px) {
     .lead {
-        width: calc(100% - 286px);
+        padding: 58px 48px 0 48px;
     }
 }

@@ -1,23 +1,23 @@
 .header {
-    width: calc(100% - 32px);
     display: grid;
-    grid-template-columns: 1fr min-content;
+    grid-template-columns: 1fr repeat(2, min-content);
+    column-gap: 18px;
     align-items: center;
-    padding-top: 16px;
-    max-width: 1184px;
+    padding: 16px 16px 0 16px;
 }
 
 
 @media screen and (min-width: 768px) {
     .header {
         width: calc(100% - 48px);
-        padding-top: 28px;
+        padding: 28px 24px 0 24px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .header {
         width: calc(100% - 96px);
+        padding: 28px 48px 0 48px;
         justify-content: space-between;
     }
 }

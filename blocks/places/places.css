@@ -1,35 +1,33 @@
 .places {
-    width: 320px;
+    width: 100%;
     flex-wrap: wrap;
     margin: 0 auto;
     grid-template-columns: auto-fit, 320px;
     display: grid;
     row-gap: 50px;
-    padding-bottom: 66px;
+    padding: 64px 0 66px 0;
+    max-width: 984px;
 }
 
 
 @media screen and (min-width: 768px) {
     .places {
-      width: 720px;
-      grid-template-columns: auto-fit, 720px;
+      width: calc(100% - 48px);
       row-gap: 73px;
-      padding-bottom: 90px;
-    } 
+      padding: 0 24px 90px 24px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
     .places {
-      width: 928px;
-      grid-template-columns: auto-fit, 928px;
+      width: calc(100% - 96px);
       row-gap: 80px;
-      padding-bottom: 92px;
-    } 
+      padding: 0 48px 92px 48px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
     .places {
-      width: 984px;
-      grid-template-columns: auto-fit, 984px;
-    } 
+      padding: 0 0 92px 0;
+    }
 }
